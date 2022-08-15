@@ -14,8 +14,8 @@
   },
   "scripts": {
     "precommit": "npm run lint && npm run test",
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js",
     "lint": "eslint '**/*.js' --ignore-pattern internals/scripts --ignore-path .gitignore",
     "lint:fix": "npm run lint --fix",
     "lint:watch": "npm run lint --watch",
