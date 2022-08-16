@@ -16,4 +16,6 @@ app.use('/auth', require('./api/auth'));
 
 app.use('/users', require('./api/user'));
 
+app.use('/dogs', require('./api/dog'));
+
 module.exports = app;
